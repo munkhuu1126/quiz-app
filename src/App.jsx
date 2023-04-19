@@ -60,12 +60,12 @@ function App() {
             <p>Quiz Ended Thank you for playing.<br />Your score is
               <span className="text-blue-300 ml-2">{correctAnswers}</span>
             </p>
-            <button className="bg-third font-bold p-4 text-lg rounded-lg text-fourth border border-fourth transition active:bg-opacity-60 hover:bg-opacity-70">Play Again ?</button>
+            <button onClick={()=>{window.location.reload()}} className="bg-third font-bold p-4 text-lg rounded-lg text-fourth border border-fourth transition active:bg-opacity-60 hover:bg-opacity-70">Play Again ?</button>
           </div> :
             currentQuiz && <div className="w-full space-y-10">
               <p className="text-right px-10 font-semibold">Question {allQuizzes}/8</p>
               <p className="text-center text text-main font-bold">Timer: {countdown}</p>
-              <p className="text-center text-2xl text-main font-bold">Question {allQuizzes}: {currentQuiz.title}</p>
+              <p className="text-center text-2xl w-96 mx-auto text-main font-bold">Question {allQuizzes}: {currentQuiz.title}</p>
               <div className="grid gap-4 px-12">
                 {
                   currentQuiz.answers.map((answer) => {

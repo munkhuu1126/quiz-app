@@ -94,7 +94,17 @@ function App() {
 
               <p className="text-center text-2xl w-96 mx-auto text-black font-bold">Question {allQuizzes}: {currentQuiz.title}</p>
               <div className="flex items-center gap-2">
-
+                {
+                  Array(allQuizzes).fill(0).map((_,i)=>{
+                    return <div key={i} className="bg-[#00c386] h-4 rounded-md w-full"></div>
+                  })  
+                  
+                }
+                {
+                  Array(8-allQuizzes).fill(0).map((_,i)=>{
+                    return <div key={i} className="bg-gray-500 h-4 rounded-md w-full"></div>
+                  })  
+                }
               </div>
               <div className="grid gap-4 px-12">
                 {

@@ -23,10 +23,10 @@ function App() {
     }
     if (allQuizzes === 8) {
       setIsQuizEnded(true)
-      clearInterval(timer.current)
     } else {
       setAllQuizzes(prev => prev + 1)
     }
+    clearTimeout(timer2.current)
   }
   const generateQuestion = () => {
     const availableQuestions = quizzes.filter(question => !alreadyAnswered.includes(question.id))
@@ -46,7 +46,7 @@ function App() {
     timer.current = setInterval(() => {
       setCountdown(prev => prev - 1)
     }, 1000)
-    setTimeout(() => {
+    timer2.current = setTimeout(() => {
       clearInterval(timer.current)
       handleQuiz()
     }, 20 * 1000)

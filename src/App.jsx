@@ -58,22 +58,22 @@ function App() {
     }
   }, [allQuizzes, isGameStarted])
   return (
-    <div className="bg-[#f4f4f5] relative flex justify-center items-center h-screen w-screen">
+    <div className="bg-black relative flex justify-center items-center h-screen w-screen">
       <Background className="absolute z-10 mx-auto left-0 right-0 text-center w-[600px]" />
       <div className=" min-w-[40%] min-h-[60%] z-20 flex items-center justify-center">
         {
           isGameStarted ? isQuizEnded ? <div className="text-center font-bold">
-            <p className="text-5xl mb-8 font-bold text-black">
+            <p className="text-5xl mb-8 font-bold text-white">
               Quiz Ended Thank you for playing.
             </p>
-            <p className="font-bold text-black mb-[72px]">Here is your score</p>
+            <p className="font-bold text-white mb-[72px]">Here is your score</p>
             <div>
               <div className="flex items-center justify-center gap-32 mb-32">
                 <div className="flex flex-col items-center">
                   <CorrectIcon className="w-[64px] h-[64px]"/>
                   <p className="text-2xl font-light">Correct</p>
                 </div>
-                <p className="text-6xl">{correctAnswers} - {8 - correctAnswers}</p>
+                <p className="text-6xl text-white">{correctAnswers} - {8 - correctAnswers}</p>
                 <div className="flex flex-col items-center">
                   <IncorrectIcon className="w-[64px] h-[64px]"/>
                   <p className="text-2xl font-light">Wrong</p>
@@ -86,13 +86,13 @@ function App() {
             </div>
 
           </div> :
-            currentQuiz && <div className="w-[564px] bg-white shadow p-8 rounded-lg space-y-10">
+            currentQuiz && <div className="w-[564px] bg-black shadow p-8 rounded-lg space-y-10">
               <div className="flex items-center justify-between">
-                <p className="text-right font-light">Question {allQuizzes}/8</p>
-                <p className=" font-light border border-[#00c386] p-3 rounded-full">Timer: {countdown}</p>
+                <p className="text-right text-white font-light">Question {allQuizzes}/8</p>
+                <p className=" font-light border text-white border-[#00c386] p-3 rounded-full">Timer: {countdown}</p>
               </div>
 
-              <p className="text-center text-2xl w-96 mx-auto text-black font-bold">Question {allQuizzes}: {currentQuiz.title}</p>
+              <p className="text-center text-2xl w-96 mx-auto text-white font-bold">Question {allQuizzes}: {currentQuiz.title}</p>
               <div className="flex items-center gap-2">
                 {
                   Array(allQuizzes).fill(0).map((_,i)=>{
@@ -110,14 +110,14 @@ function App() {
                 {
                   currentQuiz.answers.map((answer) => {
                     return (
-                      <button className=" font-light p-4 text-lg rounded-lg text-black border border-[#00c386] transition active:opacity-60 hover:opacity-70" onClick={() => { handleQuiz(answer) }} key={answer}>{answer}</button>
+                      <button className=" font-light p-4 text-lg rounded-lg text-white border border-white border-opacity-[65%] transition active:opacity-60 hover:opacity-70" onClick={() => { handleQuiz(answer) }} key={answer}>{answer}</button>
                     )
 
                   })
                 }
               </div>
             </div> : <div className="text-center text-5xl font-bold space-y-4">
-            <p className="w-96">
+            <p className="w-96 text-white">
               Test your crypto knowledge!
             </p>
             <button onClick={() => { setIsGameStarted(true) }} className="bg-[#00c386] mx-auto font-bold flex items-center text-lg rounded-full px-24 py-5 text-white transition justify-center gap-3 active:bg-opacity-60 hover:bg-opacity-70"><PlayButton className="w-8 h-8" /><p>Start Quiz</p></button>

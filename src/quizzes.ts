@@ -575,8 +575,6 @@ export const quizzes = [
         "id": "53",
         "title": "Зөвшөөрөлгүйгээр бусдын компьютэр дээр крипто олборлох нь?",
         "answers": [
-            "",
-            "",
             "Cryptographing",
             "Cryptojacking"
         ],

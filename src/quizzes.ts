@@ -1,4 +1,4 @@
-export const quizzes = [
+[
     {
         "id": "1",
         "title": "Хамгийн анхны блокчэйн гэрлэлт Америкийн аль мужид болсон бэ?",
@@ -14,10 +14,10 @@ export const quizzes = [
         "id": "2",
         "title": "Этэриумын анхны Hard fork нь ямар нэртэй вэ?",
         "answers": [
-            "London",
             "Bill Gates",
+            "Homestead",
             "Byzantium",
-            "Homestead"
+            "London"
         ],
         "correct_answer": "Homestead"
     },
@@ -25,10 +25,10 @@ export const quizzes = [
         "id": "3",
         "title": "Bitcoin.org домайн анх хэдэн онд бүртгэгдсэн бэ?",
         "answers": [
-            "2010",
+            "2008",
             "2013",
-            "2009",
-            "2008"
+            "2010",
+            "2009"
         ],
         "correct_answer": "2008"
     },
@@ -36,10 +36,10 @@ export const quizzes = [
         "id": "4",
         "title": "Эдгээр орнуудын аль нь Bitcoin -ийн хамгийн том олборлогчдын нэг вэ?",
         "answers": [
+            "Хятад",
             "Балба",
             "Алжир",
-            "Франц",
-            "Хятад"
+            "Франц"
         ],
         "correct_answer": "Хятад"
     },
@@ -47,10 +47,10 @@ export const quizzes = [
         "id": "5",
         "title": "Эфириум технологи дээр суурилсан анхны тоглоомын нэр?",
         "answers": [
-            "Ethergame",
+            "CryptoKitties",
             "Cryptomon",
             "Cryptobox",
-            "CryptoKitties"
+            "Ethergame"
         ],
         "correct_answer": "CryptoKitties"
     },
@@ -58,8 +58,8 @@ export const quizzes = [
         "id": "6",
         "title": "Биткойноос бусад койнуудыг ерөнхийлөн нэрлэдэг нэр?",
         "answers": [
-            "Money",
             "Othercoin",
+            "Money",
             "Acoin",
             "Altcoin"
         ],
@@ -69,10 +69,10 @@ export const quizzes = [
         "id": "7",
         "title": "Монгол койнуудын нэгдсэн мэдээллийг хаанаас авч болох вэ ",
         "answers": [
-            "Ikon.mn",
-            "Facebook",
             "Монгол биржүүдээс",
-            "Krypto.mn"
+            "Facebook",
+            "Krypto.mn",
+            "Ikon.mn"
         ],
         "correct_answer": "Krypto.mn"
     },
@@ -80,10 +80,10 @@ export const quizzes = [
         "id": "8",
         "title": "NFT гэж юу гэсэн үгний товчлол вэ?",
         "answers": [
-            "No Further Text",
+            "Non-fungible token",
             "Non-forgettable token",
             "Non-fungeble token",
-            "Non-fungible token"
+            "No Further Text"
         ],
         "correct_answer": "Non-fungible token"
     },
@@ -91,10 +91,10 @@ export const quizzes = [
         "id": "9",
         "title": "Хэрэв 1 BTC нь 100 сая Сатоши -тай тэнцүү бол 1 ETH нь 1 тэрбум _____ -тай тэнцүү вэ?",
         "answers": [
-            "Ethbits",
             "Sols",
+            "Gwei",
             "Matic",
-            "Gwei"
+            "Ethbits"
         ],
         "correct_answer": "Gwei"
     },
@@ -102,9 +102,9 @@ export const quizzes = [
         "id": "10",
         "title": "WEB 3.0 -д юу хамаарахгүй вэ",
         "answers": [
-            "Метаверс",
-            "NFT",
             "Блокчэйн",
+            "NFT",
+            "Метаверс",
             "Банкны систем"
         ],
         "correct_answer": "Банкны систем"
@@ -113,10 +113,10 @@ export const quizzes = [
         "id": "11",
         "title": "Метамаск гэж юу вэ",
         "answers": [
-            "Хөрөнгө оруулалтын компани",
             "Хакерын бүлэг",
-            "NFT маркет",
-            "Крипто хэтэвч"
+            "Хөрөнгө оруулалтын компани",
+            "Крипто хэтэвч",
+            "NFT маркет"
         ],
         "correct_answer": "Крипто хэтэвч"
     },
@@ -124,10 +124,10 @@ export const quizzes = [
         "id": "12",
         "title": "USDT буюу Tether нь ямар төрлийн крипто хөрөнгөд ордог бэ?",
         "answers": [
-            "Blockchain Coin",
             "Bill Gates Coin",
-            "USDCoin",
-            "Stablecoin"
+            "Stablecoin",
+            "Blockchain Coin",
+            "USDCoin"
         ],
         "correct_answer": "Stablecoin"
     },
@@ -136,9 +136,9 @@ export const quizzes = [
         "title": "Хамгийн анхны биткойн хэдэн онд олборлогдсон бэ?",
         "answers": [
             "2010",
-            "2013",
             "2008",
-            "2009"
+            "2009",
+            "2013"
         ],
         "correct_answer": "2009"
     },
@@ -146,10 +146,10 @@ export const quizzes = [
         "id": "14",
         "title": "Ethereum Whitepaper-ыг хэн бичсэн бэ?",
         "answers": [
-            "Amir Chetrit",
-            "Mihai Alisie",
             "Satoshi Nakamoto",
-            "Vitalik Buterin"
+            "Amir Chetrit",
+            "Vitalik Buterin",
+            "Mihai Alisie"
         ],
         "correct_answer": "Vitalik Buterin"
     },
@@ -157,10 +157,10 @@ export const quizzes = [
         "id": "15",
         "title": "KYC гэж юу гэсэн үгийн товчлол вэ?",
         "answers": [
-            "Key Your Coin",
-            "Know Your Crypto",
+            "Know Your Customer",
             "Know Your Coin",
-            "Know Your Customer"
+            "Key Your Coin",
+            "Know Your Crypto"
         ],
         "correct_answer": "Know Your Customer"
     },
@@ -168,10 +168,10 @@ export const quizzes = [
         "id": "16",
         "title": "Binance-ын үүсгэн байгуулагч хэн бэ?",
         "answers": [
+            "Changpeng Zhao",
             "Stuart Haber",
             "Dave Bayer",
-            "Nakamoto Satoshi",
-            "Changpeng Zhao"
+            "Nakamoto Satoshi"
         ],
         "correct_answer": "Changpeng Zhao"
     },
@@ -179,10 +179,10 @@ export const quizzes = [
         "id": "17",
         "title": "Web 3.0-ыг хэн зохиосон вэ?",
         "answers": [
-            "Satoshi Nakomoto",
-            "Vitalik Buteri",
             "Mark Zuckerberg",
-            "Gavin Wood"
+            "Gavin Wood",
+            "Satoshi Nakomoto",
+            "Vitalik Buteri"
         ],
         "correct_answer": "Gavin Wood"
     },
@@ -191,8 +191,8 @@ export const quizzes = [
         "title": "HODL бол криптовалютыг урт хугацаанд хадгалах стратеги юм. Энэ нь бичгийн алдаа хэлбэрээр эхэлсэн боловч одоо юу гэсэн утгатай вэ?",
         "answers": [
             "Happy once Doge Lifts",
-            "Having Old Decrypted Ledgers",
             "Hoarding of Decentralized Litecoin",
+            "Having Old Decrypted Ledgers",
             "Hold On for Dear Life"
         ],
         "correct_answer": "Hold On for Dear Life"
@@ -201,10 +201,10 @@ export const quizzes = [
         "id": "19",
         "title": "Хамгийн анх аль блокчэйн дээр ухаалаг гэрээг байгуулах боломжтой болсон бэ?",
         "answers": [
-            "Bitcoin",
             "Matic",
-            "Cardano",
-            "Ethereum"
+            "Ethereum",
+            "Bitcoin",
+            "Cardano"
         ],
         "correct_answer": "Ethereum"
     },
@@ -212,10 +212,10 @@ export const quizzes = [
         "id": "20",
         "title": "USDT буюу Tether нь ямар төрлийн крипто хөрөнгөд ордог бэ?",
         "answers": [
-            "Blockchain Coin",
-            "Bill Gates Coin",
             "USDCoin",
-            "Stablecoin"
+            "Blockchain Coin",
+            "Stablecoin",
+            "Bill Gates Coin"
         ],
         "correct_answer": "Stablecoin"
     },
@@ -223,10 +223,10 @@ export const quizzes = [
         "id": "21",
         "title": "Биткойны нийлүүлэлт хэд вэ?",
         "answers": [
-            "19,000,000",
-            "22,000,000",
             "20,000,000",
-            "21,000,000"
+            "19,000,000",
+            "21,000,000",
+            "22,000,000"
         ],
         "correct_answer": "21,000,000"
     },
@@ -234,9 +234,9 @@ export const quizzes = [
         "id": "22",
         "title": "АрдКойн зах зээлд хэдэн ширхэг гарсан бэ?",
         "answers": [
-            "10 тэрбум",
             "15 тэрбум",
             "100 тэрбум",
+            "10 тэрбум",
             "5.1 тэрбум"
         ],
         "correct_answer": "5.1 тэрбум"
@@ -245,10 +245,10 @@ export const quizzes = [
         "id": "23",
         "title": "Facebook-ын зохиосон криптовалют аль нь вэ?",
         "answers": [
-            "Zuckcoin",
-            "Socialcoin",
+            "Libra",
             "Facecoin",
-            "Libra"
+            "Socialcoin",
+            "Zuckcoin"
         ],
         "correct_answer": "Libra"
     },
@@ -256,10 +256,10 @@ export const quizzes = [
         "id": "24",
         "title": "Web 3.0-ын мэдээлэлд хаана хадгалагддаг вэ?",
         "answers": [
+            "Виртуал дижитал хэтэвч",
             "Hard Disk",
             "Аль нь ч биш",
-            "Data Center",
-            "Виртуал дижитал хэтэвч"
+            "Data Center"
         ],
         "correct_answer": "Виртуал дижитал хэтэвч"
     },
@@ -267,10 +267,10 @@ export const quizzes = [
         "id": "25",
         "title": "Аль компани нь Metaverse-д зориулж гутал үйлдвэрлэж байгаа вэ?",
         "answers": [
+            "Nike",
             "Bata",
-            "Adidas",
             "Puma",
-            "Nike"
+            "Adidas"
         ],
         "correct_answer": "Nike"
     },
@@ -278,10 +278,10 @@ export const quizzes = [
         "id": "26",
         "title": "Их хэмжээний Койн эзэмшдэг хүнийг юу гэж нэрлэдэг вэ?",
         "answers": [
-            "Squid",
-            "Tail",
+            "Whale",
             "Shark",
-            "Whale"
+            "Tail",
+            "Squid"
         ],
         "correct_answer": "Whale"
     },
@@ -289,10 +289,10 @@ export const quizzes = [
         "id": "27",
         "title": "Хамгийн анхны криптовалют?",
         "answers": [
-            "Dogecoin",
             "Ether",
             "Luna",
-            "Bitcoin"
+            "Bitcoin",
+            "Dogecoin"
         ],
         "correct_answer": "Bitcoin"
     },
@@ -301,8 +301,8 @@ export const quizzes = [
         "title": "Ripple-ын үүсгэн байгуулсан блокчэйны нэр юу вэ?",
         "answers": [
             "RippleNet",
-            "Stellar",
             "XRP",
+            "Stellar",
             "Litecoin"
         ],
         "correct_answer": "Litecoin"
@@ -312,9 +312,9 @@ export const quizzes = [
         "title": "Өөрийн криптовалютыг үүсгэж болох платформын нэр юу вэ?",
         "answers": [
             "Coinbase",
-            "Bitmain",
+            "Ethereum",
             "Binance",
-            "Ethereum"
+            "Bitmain"
         ],
         "correct_answer": "Ethereum"
     },
@@ -333,8 +333,8 @@ export const quizzes = [
         "id": "31",
         "title": "Блокчэйн технологи анх ямар зорилготойгоор санаачлагдаж байсан бэ?",
         "answers": [
-            "Цахим тооцоолол",
             "Цасны хайлах хурдыг тодорхойлох",
+            "Цахим тооцоолол",
             "Хэрэглэгч бүртгэл",
             "Spam имэйл шалгах"
         ],
@@ -344,10 +344,10 @@ export const quizzes = [
         "id": "32",
         "title": "Зах зээлийн хэмжээгээрээ 2-т ордог криптовалют аль нь вэ?",
         "answers": [
-            "Dogecoin",
-            "Ripple",
             "litecoin",
-            "ethereum"
+            "ethereum",
+            "Ripple",
+            "Dogecoin"
         ],
         "correct_answer": "ethereum"
     },
@@ -356,8 +356,8 @@ export const quizzes = [
         "title": "Такаши мураками гэж хэн бэ",
         "answers": [
             "Хөрөнгө оруулагч",
-            "Хамгийн баян арилжаачин",
             "Биткойныг анх зохиосон хүн",
+            "Хамгийн баян арилжаачин",
             "NFT артист "
         ],
         "correct_answer": "NFT артист "
@@ -366,10 +366,10 @@ export const quizzes = [
         "id": "34",
         "title": "Цахим спортод зориулагдсан криптовалют аль нь вэ?",
         "answers": [
-            "Theta",
-            "Vechain",
             "Enjin",
-            "Chiliz"
+            "Chiliz",
+            "Vechain",
+            "Theta"
         ],
         "correct_answer": "Chiliz"
     },
@@ -377,10 +377,10 @@ export const quizzes = [
         "id": "35",
         "title": "P2P гэж юу гэсэн үгийн товчлол вэ?",
         "answers": [
-            "Player to Player",
-            "Product to Product",
             "Password to Password",
-            "Peer to Peer"
+            "Player to Player",
+            "Peer to Peer",
+            "Product to Product"
         ],
         "correct_answer": "Peer to Peer"
     },
@@ -388,10 +388,10 @@ export const quizzes = [
         "id": "36",
         "title": "Дэлхийн хамгийн идэвхтэй арилжаалагддаг криптовалют юу вэ?",
         "answers": [
-            "Ether",
             "Dogecoin",
-            "Bitcoin",
-            "Tether"
+            "Ether",
+            "Tether",
+            "Bitcoin"
         ],
         "correct_answer": "Tether"
     },
@@ -401,8 +401,8 @@ export const quizzes = [
         "answers": [
             "Sachin Bansal",
             "Warren Buffett",
-            "Ratan Tata",
-            "Mark Cuban"
+            "Mark Cuban",
+            "Ratan Tata"
         ],
         "correct_answer": "Mark Cuban"
     },
@@ -410,10 +410,10 @@ export const quizzes = [
         "id": "38",
         "title": "Аль платформ нь NFT үүсгэхийг зөвшөөрдөг вэ?",
         "answers": [
-            "Ethereum",
             "Coinbase",
             "Binance",
-            "Opensea"
+            "Opensea",
+            "Ethereum"
         ],
         "correct_answer": "Opensea"
     },
@@ -422,9 +422,9 @@ export const quizzes = [
         "title": "2014онд 450сая$ хакэрдуулсан крипто биржийн нэр юу вэ? ",
         "answers": [
             "Coinbase ",
-            "Kraken",
+            "Mt.Gox",
             "Binance",
-            "Mt.Gox"
+            "Kraken"
         ],
         "correct_answer": "Mt.Gox"
     },
@@ -432,9 +432,9 @@ export const quizzes = [
         "id": "40",
         "title": "NFT хэзээ анх үүссэн бэ",
         "answers": [
-            "2020",
             "2019",
             "2021",
+            "2020",
             "2014"
         ],
         "correct_answer": "2014"
@@ -443,10 +443,10 @@ export const quizzes = [
         "id": "41",
         "title": "node гэж юу вэ?",
         "answers": [
-            "Криптовалют",
             "Бирж",
-            "блокчэйн сэрвер",
-            "блокчэйн сүлжээтэй холбогдсон компьютэр"
+            "Криптовалют",
+            "блокчэйн сүлжээтэй холбогдсон компьютэр",
+            "блокчэйн сэрвер"
         ],
         "correct_answer": "блокчэйн сүлжээтэй холбогдсон компьютэр"
     },
@@ -454,9 +454,9 @@ export const quizzes = [
         "id": "42",
         "title": "Японы Шиба Инү үүлдрийн нохой нь онлайн меме хэлбэрээр алдартай болсон бөгөөд ямар криптовалюттай холбоотой вэ?",
         "answers": [
-            "Litecoin",
             "Stellar",
             "Luckycoin",
+            "Litecoin",
             "Dogecoin"
         ],
         "correct_answer": "Dogecoin"
@@ -466,9 +466,9 @@ export const quizzes = [
         "title": "АRD.ART гэж юу вэ",
         "answers": [
             "Криптовалют",
-            "аль нь ч биш",
+            "NFT маркет",
             "Крипто бирж",
-            "NFT маркет"
+            "аль нь ч биш"
         ],
         "correct_answer": "NFT маркет"
     },
@@ -476,10 +476,10 @@ export const quizzes = [
         "id": "44",
         "title": "Хөл бөмбөгийн ямар тоглогч цалингаа хэсэгчлэн токеноор авдаг вэ?",
         "answers": [
-            "Danny Ings",
-            "Jadon Sancho",
             "Jack Grealish",
-            "Lionel Messi"
+            "Lionel Messi",
+            "Jadon Sancho",
+            "Danny Ings"
         ],
         "correct_answer": "Lionel Messi"
     },
@@ -487,10 +487,10 @@ export const quizzes = [
         "id": "45",
         "title": "Криптограф хамгийн анх хэдэн онд ашиглагдсан бэ?",
         "answers": [
-            "2015он",
-            "2009он",
+            "Манай эрний өмнөх 1900он",
             "1825он",
-            "Манай эрний өмнөх 1900он"
+            "2015он",
+            "2009он"
         ],
         "correct_answer": "Манай эрний өмнөх 1900он"
     },
@@ -499,9 +499,9 @@ export const quizzes = [
         "title": "Ethereum дээр ашиглагддаг криптовалют юу вэ?",
         "answers": [
             "Ripple",
-            "Dogecoin",
+            "Ether",
             "Bitcoin",
-            "Ether"
+            "Dogecoin"
         ],
         "correct_answer": "Ether"
     },
@@ -509,10 +509,10 @@ export const quizzes = [
         "id": "47",
         "title": "Winklevoss ихрүүдийн үүсгэн байгуулсан крипто биржийн нэр юу вэ?",
         "answers": [
-            "Coinbase",
-            "Kucoin",
             "Kraken",
-            "Gemini"
+            "Coinbase",
+            "Gemini",
+            "Kucoin"
         ],
         "correct_answer": "Gemini"
     },
@@ -520,10 +520,10 @@ export const quizzes = [
         "id": "48",
         "title": "Хамгийн олон Биткойн АТМ байгаа улс аль нь вэ?",
         "answers": [
-            "Герман",
+            "Америк",
             "Солонгос",
             "Япон",
-            "Америк"
+            "Герман"
         ],
         "correct_answer": "Америк"
     },
@@ -531,10 +531,10 @@ export const quizzes = [
         "id": "49",
         "title": "Микро гүйлгээнд зориулагдсан криптовалют аль нь вэ?",
         "answers": [
-            "Stellar ",
             "Cardano",
             "Ripple",
-            "Nano"
+            "Nano",
+            "Stellar "
         ],
         "correct_answer": "Nano"
     },
@@ -544,8 +544,8 @@ export const quizzes = [
         "answers": [
             "Блок",
             "Криптовалют",
-            "Dapp",
-            "Криптограф"
+            "Криптограф",
+            "Dapp"
         ],
         "correct_answer": "Криптограф"
     },
@@ -553,10 +553,10 @@ export const quizzes = [
         "id": "51",
         "title": "Miner гэж юу вэ?",
         "answers": [
-            "Гүйлгээг шалгаж буй банкер",
-            "Гүйлгээг баталж буй компьютер",
             "Алгорифмын таамаглал",
-            "Блокчэйны төрөл"
+            "Гүйлгээг шалгаж буй банкер",
+            "Блокчэйны төрөл",
+            "Гүйлгээг баталж буй компьютер"
         ],
         "correct_answer": "Блокчэйны төрөл"
     },
@@ -564,10 +564,10 @@ export const quizzes = [
         "id": "52",
         "title": "Криптовалют гэж юу вэ?",
         "answers": [
-            "Нууц мөнгө",
-            "аль нь ч биш",
             "Мөнгөний хэмжигдхүүн",
-            "Цахим мөнгө"
+            "Нууц мөнгө",
+            "Цахим мөнгө",
+            "аль нь ч биш"
         ],
         "correct_answer": "Цахим мөнгө"
     },
@@ -575,7 +575,9 @@ export const quizzes = [
         "id": "53",
         "title": "Зөвшөөрөлгүйгээр бусдын компьютэр дээр крипто олборлох нь?",
         "answers": [
+            "",
             "Cryptographing",
+            "",
             "Cryptojacking"
         ],
         "correct_answer": "Cryptojacking"
@@ -584,9 +586,9 @@ export const quizzes = [
         "id": "54",
         "title": "Genesis Block гэж юу вэ?",
         "answers": [
-            "блокчэйнийг удирддаг блок",
-            "Засгийн газрын механизм",
             "Блокчэйнийг удирддаг блок",
+            "Засгийн газрын механизм",
+            "блокчэйнийг удирддаг блок",
             "Блокчэйны эхний блок"
         ],
         "correct_answer": "Блокчэйны эхний блок"
@@ -597,8 +599,8 @@ export const quizzes = [
         "answers": [
             "Password",
             "аль нь ч биш",
-            "Pin code",
-            "Hash code"
+            "Hash code",
+            "Pin code"
         ],
         "correct_answer": "Hash code"
     },
@@ -606,10 +608,10 @@ export const quizzes = [
         "id": "56",
         "title": "Metaverse гэдэг үг хаанаас гаралтай вэ?",
         "answers": [
-            "Гарал үүсэл нь тодорхойгүй",
             "Bill Gates зохиосон",
-            "Mark Zuckerberg зохиосон",
-            "Snow crash гэдэг роман"
+            "Гарал үүсэл нь тодорхойгүй",
+            "Snow crash гэдэг роман",
+            "Mark Zuckerberg зохиосон"
         ],
         "correct_answer": "Snow crash гэдэг роман"
     },
@@ -617,10 +619,10 @@ export const quizzes = [
         "id": "57",
         "title": "Web 3.0 өөр нэршил нь юу вэ?",
         "answers": [
-            "Future Web",
             "Hash Web",
+            "Semantic Web",
             "Data Web",
-            "Semantic Web"
+            "Future Web"
         ],
         "correct_answer": "Semantic Web"
     },
@@ -628,10 +630,10 @@ export const quizzes = [
         "id": "58",
         "title": "Биткойны үнийг юу шийдвэрлдэг вэ?",
         "answers": [
-            "Биткойны үүсгэгч",
             "Дэлхийн эдийн засаг",
+            "Нийлүүлэлт болон хэрэгцээ",
             "Төв банк",
-            "Нийлүүлэлт болон хэрэгцээ"
+            "Биткойны үүсгэгч"
         ],
         "correct_answer": "Нийлүүлэлт болон хэрэгцээ"
     },
@@ -639,8 +641,8 @@ export const quizzes = [
         "id": "59",
         "title": "Биткойныг дэлхий нийтэд ил болгосон судалгааны нэр юу?",
         "answers": [
-            "Бит цаас ",
             "Ногоон цаас",
+            "Бит цаас ",
             "Хар цаас ",
             "Цагаан цаас"
         ],
@@ -650,9 +652,9 @@ export const quizzes = [
         "id": "60",
         "title": "Криптовалютыг хадгалах хамгийн аюулгүй газар юу вэ?",
         "answers": [
-            "Хувийн данс",
-            "Ажлын ширээ",
             "Бирж",
+            "Ажлын ширээ",
+            "Хувийн данс",
             "Cold wallet"
         ],
         "correct_answer": "Cold wallet"
@@ -661,10 +663,10 @@ export const quizzes = [
         "id": "61",
         "title": "DAO гэж ямар үгний товчлол вэ?",
         "answers": [
-            "Dist At Once",
-            "аль нь ч биш",
             "Data Acess Object",
-            "Decentralized autonomus organisation"
+            "Decentralized autonomus organisation",
+            "аль нь ч биш",
+            "Dist At Once"
         ],
         "correct_answer": "Decentralized autonomus organisation"
     },
@@ -672,10 +674,10 @@ export const quizzes = [
         "id": "62",
         "title": "Silk Road гэж юу вэ?",
         "answers": [
-            "Накамото Сатошигийн очих дуртай гудамж",
-            "Хөрөнгийн бирж",
+            "Биткойноор хууль бус зүйл зарж байсан зах",
             "Блокчэйн технологийн кодны 1хэсэг",
-            "Биткойноор хууль бус зүйл зарж байсан зах"
+            "Накамото Сатошигийн очих дуртай гудамж",
+            "Хөрөнгийн бирж"
         ],
         "correct_answer": "Биткойноор хууль бус зүйл зарж байсан зах"
     },
@@ -694,9 +696,9 @@ export const quizzes = [
         "id": "64",
         "title": "Санхүүгийн бүтээгдэхүүнийг төвлөрсөн бус блокчэйн сүлжээнд ашиглах боломжтой системийг юу гэж нэрлэдэг?",
         "answers": [
-            "Bona FiDe",
-            "DCFP (decentralized Financial Products)",
             "FinChain",
+            "DCFP (decentralized Financial Products)",
+            "Bona FiDe",
             "DeFi"
         ],
         "correct_answer": "DeFi"
@@ -705,10 +707,10 @@ export const quizzes = [
         "id": "65",
         "title": "АрдКойны төрөлх бирж аль вэ?",
         "answers": [
-            "Coinhub",
+            "idax",
             "Complex",
             "Trade",
-            "idax"
+            "Coinhub"
         ],
         "correct_answer": "idax"
     },
@@ -716,10 +718,10 @@ export const quizzes = [
         "id": "66",
         "title": "Нийт хэдэн АрдКойн зах зээл дээр байгаа вэ?",
         "answers": [
-            "21,000,000",
-            "4,900,000,000",
             "5,138,000,000",
-            "4,700,000,000"
+            "4,700,000,000",
+            "21,000,000",
+            "4,900,000,000"
         ],
         "correct_answer": "4,700,000,000"
     },
@@ -727,10 +729,10 @@ export const quizzes = [
         "id": "67",
         "title": "XRP token-ыг ашигладаг криптовалют аль нь вэ?",
         "answers": [
+            "Ripple",
             "Bitcoin",
-            "Litecoin",
             "Stellar",
-            "Ripple"
+            "Litecoin"
         ],
         "correct_answer": "Ripple"
     },
@@ -738,8 +740,8 @@ export const quizzes = [
         "id": "68",
         "title": "Хувийн мэдээллээ баталгаажуулхад зориулсан блокчэйн платформ аль нь вэ?",
         "answers": [
-            "Neo",
             "Vechain",
+            "Neo",
             "Ontology",
             "Civic"
         ],
@@ -749,9 +751,9 @@ export const quizzes = [
         "id": "69",
         "title": "SHA-256 алгоритмыг ашигладаг криптовалют аль нь вэ?",
         "answers": [
-            "Litecoin",
             "Ripple",
             "Ethereum ",
+            "Litecoin",
             "Bitcoin cash"
         ],
         "correct_answer": "Bitcoin cash"
@@ -760,8 +762,8 @@ export const quizzes = [
         "id": "70",
         "title": "Аль Платформ нь DAO үүсгэхийг зөвшөөрдөг вэ?",
         "answers": [
-            "Ripple",
             "Stellar",
+            "Ripple",
             "NEO",
             "MakerDAO"
         ],
